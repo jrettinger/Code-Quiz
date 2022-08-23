@@ -23,7 +23,7 @@ position: relative;
 }
 
 button {
-display: block;
+display: inline-block;
 margin: 20px;
 color: whitesmoke;
 background-color: #F75C03;
