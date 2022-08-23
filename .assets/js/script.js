@@ -5,4 +5,10 @@ var questions = [
         options: ["document.write()", "console.log()", "window.alert()", "All of the above"],
         answer: ["All of the above"]
     },
+
+    {
+    title: "How can a datatype be declared to be a constant type?",
+    options: ["const", "var", "let", "constant"],
+    answer: "const"
+    },
 ]
