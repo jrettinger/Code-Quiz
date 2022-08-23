@@ -3,13 +3,18 @@
     box-sizing: border-box;
 }
 
-.quiz, .scores {
-    margin: 75px;
+#wrapper {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue
 }
 
 .landing {
-text-align: center;
-position: relative;
+    text-align: center;
+    position: relative;
 }
 
 .scoresHeader {
@@ -23,12 +28,12 @@ position: relative;
 }
 
 button {
-display: inline-block;
-margin: 20px;
-color: whitesmoke;
-background-color: #F75C03;
-border-radius: 1px;
-padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    color: whitesmoke;
+    background-color: #F75C03;
+    border-radius: 1px;
+    padding: 10px;
 }
 
 button:hover {

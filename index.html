@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,45 +10,31 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href=".assets/css/style.css" />
 </head>
+
 <body>
     <header>
-        <div>
-        <a href="highscores.html"><button class="scores-header" id="view-high-scores">High Scores</button></a>
+        <!-- Link to High Scores -->
+    <a href="HighScores.html">View High Scores</a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for the timer -->
+        <div id="currentTime"></div>
+        <!-- Div for the quiz content -->
+        <div id="questionsDiv">
+            <h2>Coding Quiz</h2>
+            <p>Please answer the following questions. You will have 1 minute and 40 seconds to complete the quiz.
+                <br>
+                If you answer incorrectly, 10 seconds will be deducted from the remaining time!
+            </p>
+            <ul id="choices"></ul>
+            <!-- Buttons -->
+            <button id="startTime">Start Quiz</button>
         </div>
 
-        <div class="timer">
-            <span id="timer">Time Remaining: 100</span>
-            <span id="score"></span>
-            <span id="results"></span>
-        </div>
+    </div>
     </header>
 
-    <main class="quiz">
-        <div id="start-quiz">
-            <div class="landing" id="start-screen">
-                <h2>Coding Quiz</h2>
-                <p>Please answer the following questions. You will have 1 minute and 40 seconds to complete the quiz. <br>
-                 If you answer incorrectly, 10 seconds will be deducted from the remaining time!       
-                </p>
-                <button id="start">Begin Quiz</button>
-            </div>
-        </div>
+       <script src=".assets/js/script.js"></script>
+</body>
 
-        <div class="hide" id="questions">
-            <h2 id="question-words"></h2>
-            <div class="options" id="options"></div>
-        </div>
-
-        <div class="hide" id="quiz-end">
-            <h2>Finished</h2>
-            <p>The total score is: <span id="score-final"></span></p>
-            <p>Enter your initials: <input type="text" id="initials" max="4" />
-                <button id="submit-score">Submit</button>
-            </p>
-        </div>
-
-    </main>
-
-        <script src=".assets/js/script.js"></script>    
-    </body>
 </html>
