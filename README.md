@@ -8,4 +8,4 @@ My failed attempt at creating a multiple-choice quiz. Unfortunately, the javaScr
 ### Visuals
 <img src=".assets\images\jasons-code-quiz.png" alt="screenshot of my page">
 
-<a href="https://jrettinger.github.io/password-generator/" target= blank>Link to my project</a>
+<a href="https://jrettinger.github.io/Code-Quiz/" target= blank>Link to my project</a>
