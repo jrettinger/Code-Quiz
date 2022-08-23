@@ -29,8 +29,25 @@
                 <p>Please answer the following questions. You will have 75 seconds to complete the quiz. <br>
                  If you answer incorrectly, 10 seconds will be deducted from the remaining time!       
                 </p>
+                <button id="start">Begin Quiz</button>
+            </div>
+        </div>
 
-    
-<script src=".assets/js/script.js"></script>    
-</body>
+        <div class="hide" id="questions">
+            <h2 id="question-words"></h2>
+            <div class="options" id="options"></div>
+        </div>
+
+        <div class="hide" id="quiz-end">
+            <h2>Finished</h2>
+            <p>The total score is: <span id="score-final"></span></p>
+            <p>Enter your initials: <input type="text" id="initials" max="4" />
+                <button id="submit-score">Submit</button>
+            </p>
+        </div>
+
+    </main>
+
+        <script src=".assets/js/script.js"></script>    
+    </body>
 </html>
