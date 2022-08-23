@@ -48,3 +48,12 @@ input[type="text"] {
 .hide {
     display: none;
 }
+
+.feedback {
+    font-style: bold;
+    font-size: 300%;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: red;
+    border-top: 1px solid black;
+}

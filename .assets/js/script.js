@@ -61,3 +61,11 @@ function quizStart() {
     getQuestion();
 }
 
+function getQuestion() {
+    var currentQuestion = questions[currentQuestionIndex];
+
+    var titleEl = document.getElementById("question-words")
+    titleEl.textContent = currentQuestion.title;
+    optionsEl.innerHTML = "";
+
+}
