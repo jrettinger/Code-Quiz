@@ -3,13 +3,9 @@
     box-sizing: border-box;
 }
 
-#wrapper {
-    position: absolute;
-    left: 20%;
-    top: 20%;
-    width: 200px;
-    height: 200px;
-    border: 1px solid blue
+.quiz,
+.scores {
+    margin: 75px;
 }
 
 .landing {
